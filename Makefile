@@ -9,3 +9,6 @@ hs:	gyo.hs
 
 clean:
 	rm -f gyo{,.hi,.o}
+
+bench:
+	time ./gyo TESTDATA
