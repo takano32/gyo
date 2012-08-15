@@ -8,4 +8,4 @@ hs:	gyo.hs
 	ghc -O2 -Wall gyo.hs
 
 clean:
-	rm -f gyo.{hi,o}
+	rm -f gyo{,.hi,.o}
