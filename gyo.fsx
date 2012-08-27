@@ -2,6 +2,7 @@
 
 open System
 open System.IO
+(* open System.Linq to use Seq.Count() *)
 
 let readLines filePath = seq {
   (* StreamReader(path: string) : unit *)
@@ -11,5 +12,5 @@ let readLines filePath = seq {
 }
 
 let lines = readLines "TESTDATA"
-do Seq.iter (printfn "%s") lines
+do printfn "%d" (Seq.length lines)
 
