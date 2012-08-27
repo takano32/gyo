@@ -11,5 +11,5 @@ let readLines filePath = seq {
 }
 
 let lines = readLines "TESTDATA"
-let lengths = Seq.map String.length lines
+do Seq.iter (printfn "%s") lines
 
