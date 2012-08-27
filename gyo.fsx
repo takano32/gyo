@@ -1,4 +1,4 @@
-# gyo.fsx
+(* gyo.fsx *)
 
 let _ = printf "hoge"
 
